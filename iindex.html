@@ -3,14 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exemplo</title>
+    <title>Exemplo :D</title>
 
     <style>
         *{
             font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
         .container{
-            border: solid grey;
+            border: 1px solid grey;
             background-color: black;
             color: green;
             width: 10rem;
@@ -31,12 +32,12 @@
             *Template string e interpolação
             */
            var nome = prompt("Informe o nome");
-           var descricao = pronpt("Informe a descrição do produto");
-           var preco = pronpt("Informe a descrição do produto");
+           var descricao = prompt("Informe a descrição do produto");
+           var preco = prompt("Informe a descrição do produto");
 
-            document.write(`Olá ${nome}!`);
-            alert("Olá," + nome + "!");
-            console.log("Olá," + nome + "!");
+           document.write(`<h1  class="titulo">${nome}</h1>`);
+           document.write(`<article  class="descricao">${descricao}</article>`);
+           document.write(`<aside  class="preco">${preco}</aside>`);
         </script>
     </div>
     
